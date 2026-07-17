@@ -77,10 +77,10 @@
 
                 <!-- Auth Portal CTA -->
                 <div class="flex items-center gap-4">
-                    <a href="{{ url('/admin/login') }}" class="hidden sm:inline-flex text-sm font-semibold text-slate-700 dark:text-zinc-300 hover:text-teal-600 dark:hover:text-teal-400 transition-colors px-4 py-2">
+                    <a href="{{ url('/login') }}" class="hidden sm:inline-flex text-sm font-semibold text-slate-700 dark:text-zinc-300 hover:text-teal-600 dark:hover:text-teal-400 transition-colors px-4 py-2">
                         Log In
                     </a>
-                    <a href="{{ url('/admin') }}" class="inline-flex items-center justify-center px-5 py-2.5 rounded-xl bg-teal-600 hover:bg-teal-700 dark:bg-teal-500 dark:hover:bg-teal-600 text-white font-semibold text-sm shadow-lg shadow-teal-600/20 dark:shadow-teal-500/10 transition-all duration-300 hover:shadow-teal-700/30 hover:-translate-y-0.5">
+                    <a href="{{ url('/login') }}" class="inline-flex items-center justify-center px-5 py-2.5 rounded-xl bg-teal-600 hover:bg-teal-700 dark:bg-teal-500 dark:hover:bg-teal-600 text-white font-semibold text-sm shadow-lg shadow-teal-600/20 dark:shadow-teal-500/10 transition-all duration-300 hover:shadow-teal-700/30 hover:-translate-y-0.5">
                         Access Portal
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-4 h-4 ml-1.5">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
@@ -109,7 +109,7 @@
                         Lifeline HMS streamlines operations, connects doctors and patients, and delivers high-performance insights to hospital administrators. Manage admissions, scheduling, prescriptions, and billing all from one unified dashboard.
                     </p>
                     <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-                        <a href="{{ url('/admin') }}" class="inline-flex items-center justify-center px-7 py-4 rounded-2xl bg-teal-600 hover:bg-teal-700 dark:bg-teal-500 dark:hover:bg-teal-600 text-white font-bold shadow-xl shadow-teal-600/25 dark:shadow-teal-500/15 transition-all duration-300 hover:shadow-teal-700/40 hover:-translate-y-1">
+                        <a href="{{ url('/login') }}" class="inline-flex items-center justify-center px-7 py-4 rounded-2xl bg-teal-600 hover:bg-teal-700 dark:bg-teal-500 dark:hover:bg-teal-600 text-white font-bold shadow-xl shadow-teal-600/25 dark:shadow-teal-500/15 transition-all duration-300 hover:shadow-teal-700/40 hover:-translate-y-1">
                             Launch Dashboard
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-5 h-5 ml-2">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
@@ -392,10 +392,10 @@
                         Log in as Administrator, Doctor, or Staff to view admissions, write prescriptions, handle billings, or book appointments.
                     </p>
                     <div class="flex flex-col sm:flex-row gap-4 justify-center pt-4">
-                        <a href="{{ url('/admin/login') }}" class="inline-flex items-center justify-center px-8 py-4 rounded-xl bg-white hover:bg-slate-50 text-teal-700 font-bold transition-all duration-300 hover:shadow-lg hover:-translate-y-0.5">
-                            Admin Login
+                        <a href="{{ url('/login') }}" class="inline-flex items-center justify-center px-8 py-4 rounded-xl bg-white hover:bg-slate-50 text-teal-700 font-bold transition-all duration-300 hover:shadow-lg hover:-translate-y-0.5">
+                            Portal Login
                         </a>
-                        <a href="{{ url('/admin') }}" class="inline-flex items-center justify-center px-8 py-4 rounded-xl bg-teal-850 hover:bg-teal-900 text-white font-bold border border-teal-500/30 transition-all duration-300 hover:shadow-lg hover:-translate-y-0.5">
+                        <a href="{{ url('/login') }}" class="inline-flex items-center justify-center px-8 py-4 rounded-xl bg-teal-850 hover:bg-teal-900 text-white font-bold border border-teal-500/30 transition-all duration-300 hover:shadow-lg hover:-translate-y-0.5">
                             Enter Dashboard Portal
                         </a>
                     </div>
@@ -431,7 +431,7 @@
                         <ul class="space-y-2 text-xs">
                             <li><a href="#features" class="text-slate-600 dark:text-zinc-400 hover:text-teal-600 dark:hover:text-teal-400">Features</a></li>
                             <li><a href="#stats" class="text-slate-600 dark:text-zinc-400 hover:text-teal-600 dark:hover:text-teal-400">Stats Overview</a></li>
-                            <li><a href="{{ url('/admin') }}" class="text-slate-600 dark:text-zinc-400 hover:text-teal-600 dark:hover:text-teal-400">HMS Portal</a></li>
+                            <li><a href="{{ url('/login') }}" class="text-slate-600 dark:text-zinc-400 hover:text-teal-600 dark:hover:text-teal-400">HMS Portal</a></li>
                         </ul>
                     </div>
                     <div class="space-y-3">
